@@ -15,5 +15,7 @@ textarea.addEventListener("input", () => {
       (message.style.boxShadow = "0 0 5px red"));
   } else {
     charCount.style.color = "#555";
+     ((message.style.borderColor = "#2b2626"),
+      (message.style.boxShadow = "10px 10px 10px rgba(0, 0, 0, 0.1)"));
   }
 });
